@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2424272640746627975
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2424272640746627973}
+  - component: {fileID: 2424272640746627972}
+  m_Layer: 0
+  m_Name: Skill Tree Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2424272640746627973
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2424272640746627975}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 542.6669, y: 313.43826, z: -3.25}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2424272640746627972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2424272640746627975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd6b79c650940eb4299d3d3b62dc1033, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  skillTreePanel: {fileID: 0}
+  innerStrengthButton: {fileID: 0}
+  exaltedStrengthButton: {fileID: 0}
+  heritageButton: {fileID: 0}
+  bloodlineButton: {fileID: 0}
+  ascendedButton: {fileID: 0}
+  innerStrengthPoints: {fileID: 0}
+  exaltedStrengthPoints: {fileID: 0}
+  heritagePoints: {fileID: 0}
+  bloodlinePoints: {fileID: 0}
+  ascendedPoints: {fileID: 0}
+  innerGain: 2
+  exaltedGain: 4
+  exaltedBonus: 10
+  bloodlineGain: 2
+  heritageGain: 2
